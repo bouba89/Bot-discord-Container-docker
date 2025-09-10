@@ -1,0 +1,26 @@
+{
+    "webhook_url": "https://discord.com/api/webhooks/1321091947473010700/nqaBYD0Wo9p_scfnsRgie9VgLmc3NWSguAqAI29gNmdiQDv9XMeeqrQPBl6Ex3T8pkvU",
+    "events": {
+      "start": {
+        "title": "🚀 Container Started: {name}",
+        "description": "The container '{name}' has started successfully.",
+        "color": 3066993
+      },
+      "restart": {
+        "title": "🔄 Container Restarted: {name}",
+        "description": "The container '{name}' has been restarted.",
+        "color": 15844367
+      },
+      "stop": {
+        "title": "🛑 Container Stopped: {name}",
+        "description": "The container '{name}' has been stopped.",
+        "color": 15158332
+      },
+      "die": {
+        "title": "💀 Container Died: {name}",
+        "description": "The container '{name}' has stopped working.",
+        "color": 10038562
+      }
+    }
+  }
+  
